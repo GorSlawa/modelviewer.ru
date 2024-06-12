@@ -1,0 +1,14 @@
+:root > * {
+    --md-code-hl-string-color: #0FF1CE;
+  }
+
+#_1, #_2 {
+    color: red;
+}  
+
+a[href^="mailto"]::before {
+    content: '\1F4E9'; /* Иконка */
+    padding-right: 5px; /* Расстояние от иконки до текста */
+    vertical-align: text-bottom; /* Выравнивание по вертикали */
+    font-size: 1em; /* Размер иконки */
+   }

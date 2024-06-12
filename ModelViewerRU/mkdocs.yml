@@ -1,4 +1,17 @@
 site_name: ModelViewer RU
+site_description: Перевод документации model-viewer от Google
+site_url: https://modelviewer.ru
+
+theme:
+  name: material
+
+extra_css:
+  - stylesheets/extra.css  
+
+plugins:
+  - search
+  - blog
+    
 nav:
   - Home: index.md
   
