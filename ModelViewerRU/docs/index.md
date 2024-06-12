@@ -8,11 +8,7 @@
 #  Зайдите пожалуйста позже
 
 
-
-
-[mail@modelviewer.ru](mailto:mail@modelviewer.ru?subject=Письмо с сайта modelviewer.ru target=_blank)
-
-<!-- <a href="mailto:mail@modelviewer.ru?subject=Письмо с сайта modelviewer.ru" target="_blank">mail@modelviewer.ru</a> -->
+<a href="mailto:mail@modelviewer.ru?subject=Письмо с сайта modelviewer.ru" target="_blank">mail@modelviewer.ru</a>
 
 
 ## Лёгкий способ публикации 3D моделей в Интернете и в AR
