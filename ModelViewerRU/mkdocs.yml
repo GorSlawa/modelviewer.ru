@@ -3,7 +3,33 @@ site_description: Перевод документации model-viewer от Goog
 site_url: https://modelviewer.ru
 
 theme:
+  favicon: images/favicon.ico 
+  logo: assets/logo.png
   name: material
+  palette:
+    scheme: slate  
+    primary: blue grey
+    accent: green
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+
+extra:
+  consent:
+    title: Согласия на использование файлов cookie
+    description:
+        Мы используем файлы cookie для распознавания ваших повторных 
+        посещений и предпочтений, а также для оценки эффективности 
+        нашей документации и того, находят ли пользователи то, что ищут. 
+        С вашего согласия, вы помогаете нам сделать нашу документацию лучше.
+    actions:
+      - accept
+      - reject
+      - manage    
+      
+copyright: >
+  Copyright &copy; 2024 modelviewer.ru –
+  <a href="#__consent">Change cookie settings</a>
 
 extra_css:
   - stylesheets/extra.css  
@@ -11,8 +37,11 @@ extra_css:
 plugins:
   - search
   - blog
+  - privacy
     
 nav:
   - Home: index.md
+  - Quick Start: start.md
+  
   
 
