@@ -2,9 +2,13 @@
 	path = aframe
 	url = git@github.com:GorSlawa/aframe.git
 
-	
+
 [submodule "aframe-xr"]
 	path = aframe-xr
 	url = git@github.com:GorSlawa/aframe-xr.git
 
+
+[submodule "model-viewer"]
+	path = model-viewer
+	url = git@github.com:GorSlawa/model-viewer.git
 	
