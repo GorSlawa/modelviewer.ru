@@ -19,9 +19,6 @@
 ---
 
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
-
-
-
 <model-viewer 
 alt="Космический костюм Нила Армстронга из Смитсоновского офиса 
 программ оцифровки и Национального музея авиации и космонавтики" 
