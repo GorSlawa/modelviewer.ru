@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Template</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Меню */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 15px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #555;
+      border-radius: 5px;
+    }
+
+    /* Заголовок */
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(45deg, #ff7e5f, #feb47b);
+      color: white;
+      margin-top: 50px;
+    }
+
+    header h1 {
+      font-size: 3em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    /* Секции */
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .section:nth-child(even) {
+      background-color: #4CAF50;
+    }
+
+    .section:nth-child(odd) {
+      background-color: #2196F3;
+    }
+
+    .section h2 {
+      font-size: 2em;
+    }
+
+    .section p {
+      font-size: 1em;
+      margin: 10px 0;
+    }
+
+    /* Дашборд */
+    .dashboard {
+      padding: 50px 20px;
+      background-color: #333;
+      color: white;
+    }
+
+    .dashboard h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .dashboard .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      text-align: center;
+    }
+
+    .dashboard .card {
+      background-color: #444;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .dashboard .card h3 {
+      margin: 0;
+    }
+
+    .dashboard .card p {
+      margin: 10px 0 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Меню -->
+  <nav>
+    <a href="#block1">Блок 1</a>
+    <a href="#block2">Блок 2</a>
+    <a href="#block3">Блок 3</a>
+    <a href="#block4">Блок 4</a>
+    <a href="#block5">Блок 5</a>
+    <a href="#block6">Блок 6</a>
+    <a href="#dashboard">Дашборд</a>
+  </nav>
+
+  <!-- Заголовок -->
+  <header>
+    <h1>Добро пожаловать!</h1>
+    <p>Шаблон лендинга с шестью блоками и дашбордом</p>
+  </header>
+
+  <!-- Блоки -->
+  <div id="block1" class="section">
+    <h2>Блок 1</h2>
+    <p>Описание для блока 1</p>
+  </div>
+  <div id="block2" class="section">
+    <h2>Блок 2</h2>
+    <p>Описание для блока 2</p>
+  </div>
+  <div id="block3" class="section">
+    <h2>Блок 3</h2>
+    <p>Описание для блока 3</p>
+  </div>
+  <div id="block4" class="section">
+    <h2>Блок 4</h2>
+    <p>Описание для блока 4</p>
+  </div>
+  <div id="block5" class="section">
+    <h2>Блок 5</h2>
+    <p>Описание для блока 5</p>
+  </div>
+  <div id="block6" class="section">
+    <h2>Блок 6</h2>
+    <p>Описание для блока 6</p>
+  </div>
+
+  <!-- Дашборд -->
+  <div id="dashboard" class="dashboard">
+    <h2>Дашборд</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Метрика 1</h3>
+        <p>Значение 1</p>
+      </div>
+      <div class="card">
+        <h3>Метрика 2</h3>
+        <p>Значение 2</p>
+      </div>
+      <div class="card">
+        <h3>Метрика 3</h3>
+        <p>Значение 3</p>
+      </div>
+      <div class="card">
+        <h3>Метрика 4</h3>
+        <p>Значение 4</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
